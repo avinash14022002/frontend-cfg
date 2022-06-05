@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 // import { Dialog, Transition } from "@headlessui/react";
 // import Logo from "../../assets/images/logo.svg";
 import {
-  MenuAlt2Icon,
   ViewListIcon,
   DocumentSearchIcon,
   ClipboardCheckIcon,

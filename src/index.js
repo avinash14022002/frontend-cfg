@@ -4,12 +4,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Homepage from "./components/homepage/HomePage";
 import Login from "./components/login/Login";
+import DashboardContainer from "./pages/DashboardContainer";
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard/*" element={<DashboardContainer />}></Route>
       </Routes>
     </BrowserRouter>
   );
